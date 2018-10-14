@@ -4,6 +4,6 @@ Cream: '250 ml'
 }
 
 function updateObjectWithKeyAndValue(object, key, value){
- var newObj = Object.assign({},object,key: value)
+ var newObj = Object.assign({},object,{key: value})
 }
 
